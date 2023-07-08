@@ -10,9 +10,9 @@ services:
     volumes:
       - ./:/var/www/project
     environment:
-      VIRTUAL_HOST: ${HOST},www.${HOST}
+      VIRTUAL_HOST: ${HOST}
       VIRTUAL_PORT: 443
-      LETSENCRYPT_HOST: ${HOST},www.${HOST}
+      LETSENCRYPT_HOST: ${HOST}
     depends_on:
       - php
     networks:
