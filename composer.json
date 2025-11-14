@@ -1,5 +1,5 @@
 {
-    "name": "phleech/project",
+    "name": "phleech/phbadge",
     "autoload": {
         "psr-4": {
             "App\\": "app/"
